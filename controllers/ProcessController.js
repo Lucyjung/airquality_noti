@@ -8,7 +8,7 @@ module.exports = {
             let data =  response.data
             if (data.data.iaqi.pm25){
                 let pm25 = data.data.iaqi.pm25.v
-                if (pm25 > 100 || (req.body.force)){
+                if (pm25 > 50 || (req.body.force)){
                     const msg = {message : 'Bangkok Air Quality = ' + pm25 };
                     const options = {
                         method: 'POST',
