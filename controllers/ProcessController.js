@@ -14,7 +14,7 @@ module.exports = {
                         method: 'POST',
                         headers: { 
                             'content-type': 'application/x-www-form-urlencoded',
-                            'Authorization' : 'Bearer 7E3WnxG6Cx5bpQJh1Sq0Obm41tVkCt4J3ZsSyXULtnO' },
+                            'Authorization' : 'Bearer P45GgbT7FanD20juJiKSJauI4Zn0HGtltZ6stvdSXfe' },
                         data: qs.stringify(msg)
                     };
                     try {
